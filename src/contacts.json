@@ -1,0 +1,208 @@
+[
+  {
+      "first": "מאיה",
+      "last": "דר",
+      "gender": "בת",
+      "parent1": "עדי",
+      "mobile1": "0502302002",
+      "parent2": "שי",
+      "mobile2": 523458108,
+      "address": "הכפר הירוק",
+      "mail": "adikalmydar@gmail.com"
+  },
+  {
+      "first": "אלמה",
+      "last": "לוי",
+      "gender": "בת",
+      "parent1": "נועה",
+      "mobile1": "054-2375658",
+      "parent2": "-",
+      "mobile2": "-",
+      "address": "הגנים 7",
+      "mail": "-"
+  },
+  {
+      "first": "אופיר",
+      "last": "שרקון",
+      "gender": "בת",
+      "parent1": "עדי",
+      "mobile1": "054-5900474",
+      "parent2": "-",
+      "mobile2": "-",
+      "address": "השדות 4",
+      "mail": "Adimi1979@gmail.com"
+  },
+  {
+      "first": "ניקה",
+      "last": "ציוני",
+      "gender": "בת",
+      "parent1": "לירון",
+      "mobile1": "0525251524",
+      "parent2": "-",
+      "mobile2": "-",
+      "address": "השדות 13",
+      "mail": "-"
+  },
+  {
+      "first": "מיה",
+      "last": "בעל טכסא",
+      "gender": "בת",
+      "parent1": "מירב",
+      "mobile1": "0545911744",
+      "mobile2": "-",
+      "address": "הפרחים 2",
+      "mail": "meiravch@gmail.com"
+  },
+  {
+      "first": "דניאל",
+      "last": "קיילר",
+      "gender": "בת",
+      "parent1": "טל",
+      "mobile1": "054-2699795",
+      "address": "הגנים 5",
+      "mail": "ayeletgn@gmail.com"
+  },
+  {
+      "first": "אלון",
+      "last": "גלוברמן שגיא",
+      "gender": "בן",
+      "parent1": "איילת",
+      "mobile1": "050-8624833",
+      "parent2": "פאינה",
+      "mobile2": "054-9773772",
+      "address": "הפרחים 13",
+      "mail": "-"
+  },
+  {
+      "first": "ארי",
+      "last": "קליש",
+      "gender": "בן",
+      "parent1": "קורין",
+      "mobile1": "0506994481",
+      "parent2": "סטיב",
+      "mobile2": "-",
+      "address": "השדות 2",
+      "mail": "korin.bell@gmail.com"
+  },
+  {
+      "first": "מייקל",
+      "last": "טוביא",
+      "gender": "בן",
+      "parent1": "הדיל",
+      "mobile1": "0526389004",
+      "parent2": "-",
+      "mobile2": "-",
+      "address": "הגנים 18",
+      "mail": "-"
+  },
+  {
+      "first": "נועם",
+      "last": "אמיר",
+      "gender": "בת",
+      "parent1": "רונה",
+      "mobile1": "-",
+      "parent2": "-",
+      "mobile2": "-",
+      "address": "-",
+      "mail": "-"
+  },
+  {
+      "first": "רונה",
+      "last": "נוה",
+      "gender": "בת",
+      "parent1": "חני",
+      "mobile1": "0509337007",
+      "parent2": "-",
+      "mobile2": "-",
+      "address": "הגנים 5",
+      "mail": "-"
+  },
+  {
+      "first": "איתי",
+      "last": "שקולניק",
+      "gender": "בן",
+      "parent1": "שרון",
+      "mobile1": "050-8442331",
+      "parent2": "אלון",
+      "mobile2": 544815133,
+      "address": "הגנים 9",
+      "mail": "Sharonsh@team.co.il"
+  },
+  {
+      "first": "ירדן",
+      "last": "דיק",
+      "gender": "בת",
+      "parent1": "מיכל",
+      "mobile1": "0545651186",
+      "parent2": "-",
+      "mobile2": "-",
+      "address": "הגנים 9",
+      "mail": "michalih@hotmail.com"
+  },
+  {
+      "first": "נועם",
+      "last": "דיק",
+      "gender": "בת",
+      "parent1": "רוית אמיר",
+      "mobile1": "0524483969",
+      "parent2": "-",
+      "mobile2": "-",
+      "address": "הגנים 9",
+      "mail": "-"
+  },
+  {
+      "first": "לני רוז",
+      "last": "המרמן",
+      "gender": "בת",
+      "parent1": "רעות דנן",
+      "mobile1": "0542656466",
+      "parent2": "ארבל",
+      "mobile2": 503301414,
+      "address": "הגנים 16",
+      "mail": "Dananreut@yahoo.com"
+  },
+  {
+      "first": "עיטם",
+      "last": "מידן",
+      "gender": "בן",
+      "parent1": "מירית",
+      "mobile1": "0504343432",
+      "parent2": "יניב",
+      "mobile2": 504242428,
+      "address": "השדות 4",
+      "mail": "Mirit.grin@gmail.com"
+  },
+  {
+      "first": "אריאל",
+      "last": "סלע",
+      "gender": "בן",
+      "parent1": "קרן",
+      "mobile1": "0545306077",
+      "parent2": "מירון",
+      "mobile2": 546495959,
+      "address": "הגנים 9",
+      "mail": "kerenzsela@gmail.com"
+  },
+  {
+      "first": "בר",
+      "last": "קפלינסקי",
+      "gender": "בן",
+      "parent1": "נויה",
+      "mobile1": "0544999605",
+      "parent2": "עמית",
+      "mobile2": 544878882,
+      "address": "הגנים 5",
+      "mail": "noya.parasol@gmail.com"
+  },
+  {
+      "first": "נאור",
+      "last": "זימן",
+      "gender": "בן",
+      "parent1": "דנה",
+      "mobile1": "0507922788",
+      "parent2": "עודד",
+      "mobile2": 548185009,
+      "address": "הגנים 9",
+      "mail": "dana.ziman@gmail.com"
+  }
+]
