@@ -4,7 +4,8 @@ import {
   BrowserRouter as Router,
   Route,
   Redirect,
-  Switch
+  Switch,
+  HashRouter
 } from "react-router-dom";
 import "./App.css";
 
@@ -60,13 +61,13 @@ const AllContacts = () => {
 function App() {
   return (
     <main className="contacts-app">
-      <Router>
+      <HashRouter basename="/">
         <Switch>
           <Route exact path="/contacts" component={AllContacts} />
           <Route exact path="/contacts/:contactId" component={ContactPage} />
           <Redirect from="/" to="/contacts" />
         </Switch>
-      </Router>
+      </HashRouter>
     </main>
   );
 }
