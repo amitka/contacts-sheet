@@ -1,11 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "גן נופר",
+  "name": "גן נופר רשימת קשר",
   "icons": [
     {
       "src": "apple-touch-icon.png",
       "sizes": "150x150",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
       "src": "favicon.ico",
