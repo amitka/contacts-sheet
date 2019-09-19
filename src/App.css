@@ -15,39 +15,35 @@ header {
   width: 100%;
   height: 7rem;
   padding: 1rem;
-  border-bottom: 1px solid var(--color-border);
-  background-color: var(--color-third);
+  /* border-bottom: 1px solid var(--color-border); */
+  background: url("../src/assets/2.jpg") center;
+  background-size: cover;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-flow: column nowrap;
+  box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.075);
+}
+
+.header-title {
+  flex: 1 0 auto;
   display: flex;
   flex-flow: row-reverse nowrap;
 }
 
-.logo-container {
-  flex: 0 0 5rem;
+.header-title-main {
+  text-align: right;
+  font-weight: bold;
 }
 
-.logo-circ {
-  width: 5rem;
-  height: 5rem;
-  background-color: darkred;
-  border-radius: 50%;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  justify-content: center;
+.header-title-sub {
+  text-align: center;
 }
 
-.logo-circ .title {
-  color: white;
-  margin: 0 0 0.25rem 0;
-}
-
-.logo-circ .sub-title {
-  color: white;
-  font-size: 0.75rem;
+.header-title span {
+  flex: 1;
 }
 
 .search-container {
-  margin-right: 0.5rem;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
@@ -56,8 +52,9 @@ header {
 
 .search-container input {
   width: 100%;
-  padding: 0.25rem;
+  padding: 0.25rem 0.5rem;
   font-size: inherit;
+  border: 1px solid var(--color-border);
 }
 
 .contacts-container {
@@ -81,7 +78,7 @@ header {
   margin: 0.25rem;
   text-align: center;
   border-radius: 0.25rem;
-  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.075);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -101,8 +98,8 @@ header {
 }
 
 .contact-pic {
-  width: 3.25rem;
-  height: 3.25rem;
+  width: 4rem;
+  height: 4rem;
   display: block;
   border-radius: 50%;
   border: 1px solid var(--color-border);

@@ -7,10 +7,9 @@ import {
   Switch,
   HashRouter
 } from "react-router-dom";
-import Pics from "./pics";
 import "./App.css";
 
-const contacts = require("./contacts.json");
+const contacts = require("./assets/contacts.json");
 
 const ContactPage = ({ match, location }) => {
   const {
@@ -30,11 +29,10 @@ const AllContacts = () => {
   return (
     <section className="all-contacts-page">
       <header>
-        <div className="logo-container">
-          <div className="logo-circ">
-            <span className="title">גן נופר</span>
-            <span className="sub-title">2019/20</span>
-          </div>
+        <div className="header-title">
+          <span className="header-title-main">גן נופר</span>
+          <span className="header-title-sub">דף קשר</span>
+          <span>2019/20</span>
         </div>
         <div className="search-container">
           <input type="text" placeholder="Search..." />
@@ -49,10 +47,10 @@ const AllContacts = () => {
                   <img
                     src={
                       contact.pic
-                        ? require(`./pics/${contact.pic}.jpg`)
-                        : require("./pics/default.jpg")
+                        ? require(`./assets/pics/${contact.pic}.jpg`)
+                        : require("./assets/pics/default.jpg")
                     }
-                    alt=""
+                    alt="contact-pic"
                   />
                 </div>
                 <span className="contact-name">{`${contact.first} ${contact.last}`}</span>

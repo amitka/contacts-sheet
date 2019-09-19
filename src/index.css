@@ -11,7 +11,7 @@ html {
   --color-primary: #333;
   --color-secondary: #909090;
   --color-third: #dfdfdf;
-  --color-border: #c4c4c4;
+  --color-border: #f4f4f4;
   /*  */
   font-size: 24px;
   color: var(--color-primary);
