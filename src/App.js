@@ -7,6 +7,7 @@ import {
   Switch,
   HashRouter
 } from "react-router-dom";
+import Pics from "./pics";
 import "./App.css";
 
 const contacts = require("./contacts.json");
@@ -19,6 +20,8 @@ const ContactPage = ({ match, location }) => {
   return (
     <article className="contact-container">
       <span>{contactId}</span>
+      <br />
+      <Link to="/">Back</Link>
     </article>
   );
 };
@@ -42,7 +45,16 @@ const AllContacts = () => {
           {contacts.map((contact, index) => (
             <div className="contact-item" key={index}>
               <Link to={`/contacts/${index}`} className="link">
-                <span className="contact-pic"></span>
+                <div className="contact-pic">
+                  <img
+                    src={
+                      contact.pic
+                        ? require(`./pics/${contact.pic}.jpg`)
+                        : require("./pics/default.jpg")
+                    }
+                    alt=""
+                  />
+                </div>
                 <span className="contact-name">{`${contact.first} ${contact.last}`}</span>
               </Link>
               <a
