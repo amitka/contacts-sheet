@@ -1,0 +1,116 @@
+.contacts-app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*  ALL CONTACTS PAGE */
+
+.all-contacts-page {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 7rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-third);
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
+
+.logo-container {
+  flex: 0 0 5rem;
+}
+
+.logo-circ {
+  width: 5rem;
+  height: 5rem;
+  background-color: darkred;
+  border-radius: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-circ .title {
+  color: white;
+  margin: 0 0 0.25rem 0;
+}
+
+.logo-circ .sub-title {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.search-container {
+  margin-right: 0.5rem;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 0.25rem;
+  font-size: inherit;
+}
+
+.contacts-container {
+  width: 100%;
+  height: calc(100% - 7rem);
+  overflow: auto;
+}
+
+.contacts-scroll {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contact-item {
+  flex: 1 0 50%;
+  width: 50%;
+  min-height: 5rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid var(--color-border);
+}
+
+.contact-item .link {
+  width: 100%;
+  /* height: 100%; */
+  display: block;
+
+  color: var(--color-primary);
+  text-decoration: none;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-pic {
+  width: 3.25rem;
+  height: 3.25rem;
+  display: block;
+  border-radius: 50%;
+  background-color: var(--color-secondary);
+  margin: 0 0 0.25rem 0;
+}
+
+.contact-name {
+  text-align: center;
+  margin: 0 0 0.25rem 0;
+}
+
+.contact-phone {
+  font-size: 0.75rem;
+  display: block;
+  padding: 0.5rem;
+}
+
+/*  CONTACT PAGE */
