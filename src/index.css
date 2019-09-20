@@ -8,13 +8,17 @@ body,
 }
 
 html {
-  --color-primary: #333;
-  --color-secondary: #909090;
-  --color-third: #dfdfdf;
-  --color-border: #f4f4f4;
+  --color-text-primary: #333;
+  --color-text-secondary: #909090;
+  --color-text-contrast: #fff;
+  --color-main-100: #ff6464;
+  --color-main-200: #ff8264;
+  --color-main-300: #ffaa64;
+  --color-main-400: #fff5a5;
+
   /*  */
   font-size: 24px;
-  color: var(--color-primary);
+  color: var(--color-text-primary);
 }
 
 body {

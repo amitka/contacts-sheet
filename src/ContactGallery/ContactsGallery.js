@@ -13,7 +13,7 @@ export const ContactsGallery = () => {
           <span>2019/20</span>
         </div>
         <div className="search-container">
-          <input type="text" placeholder="Search..." />
+          <input type="text" placeholder="חפש\י..." />
         </div>
       </header>
       <div className="contacts-container">

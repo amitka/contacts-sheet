@@ -1,19 +1,18 @@
 .all-contacts-page {
   width: 100%;
   height: 100%;
+  background-color: white;
+  background: url("../assets/pat.png");
 }
 
 header {
   width: 100%;
   height: 7rem;
   padding: 1rem;
-  /* border-bottom: 1px solid var(--color-border); */
-  background: url("../../src/assets/2.jpg") center;
-  background-size: cover;
-  background-color: #f4f4f4;
+  background-color: var(--color-main-100);
   display: flex;
   flex-flow: column nowrap;
-  box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.075);
+  color: white;
 }
 
 .header-title {
@@ -46,7 +45,9 @@ header {
   width: 100%;
   padding: 0.25rem 0.5rem;
   font-size: inherit;
-  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  border-color: transparent;
+  direction: rtl;
 }
 
 .contacts-container {
@@ -70,7 +71,10 @@ header {
   margin: 0.25rem;
   text-align: center;
   border-radius: 0.25rem;
-  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.075);
+  /* background: url("../assets/pat.png");
+  background-size: cover; */
+  background-color: var(--color-text-contrast);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -81,7 +85,7 @@ header {
   width: 100%;
   /* height: 100%; */
   display: block;
-  color: var(--color-primary);
+  color: var(--color-text-primary);
   text-decoration: none;
   display: flex;
   flex-flow: column nowrap;
@@ -94,8 +98,6 @@ header {
   height: 4rem;
   display: block;
   border-radius: 50%;
-  border: 1px solid var(--color-border);
-  background-color: var(--color-secondary);
   margin: 0 0 0.5rem 0;
   overflow: hidden;
 }
@@ -105,11 +107,14 @@ header {
 }
 
 .contact-name {
+  font-weight: bold;
+  color: var(--color-main-100);
   text-align: center;
   margin: 0 0 0.25rem 0;
 }
 
 .contact-phone {
+  color: var(--color-main-200);
   font-size: 0.75rem;
   display: block;
   padding: 0.5rem;
