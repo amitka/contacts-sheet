@@ -1,31 +1,9 @@
 import React from "react";
-import {
-  Link,
-  BrowserRouter as Router,
-  Route,
-  Redirect,
-  Switch,
-  HashRouter
-} from "react-router-dom";
-import "./App.css";
+import { Link } from "react-router-dom";
 
-const contacts = require("./assets/contacts.json");
+const contacts = require("../assets/contacts.json");
 
-const ContactPage = ({ match, location }) => {
-  const {
-    params: { contactId }
-  } = match;
-
-  return (
-    <article className="contact-container">
-      <span>{contactId}</span>
-      <br />
-      <Link to="/">Back</Link>
-    </article>
-  );
-};
-
-const AllContacts = () => {
+export const ContactsGallery = () => {
   return (
     <section className="all-contacts-page">
       <header>
@@ -47,8 +25,8 @@ const AllContacts = () => {
                   <img
                     src={
                       contact.pic
-                        ? require(`./assets/pics/${contact.pic}.jpg`)
-                        : require("./assets/pics/default.jpg")
+                        ? require(`../assets/pics/${contact.pic}.jpg`)
+                        : require("../assets/pics/default.jpg")
                     }
                     alt="contact-pic"
                   />
@@ -67,19 +45,3 @@ const AllContacts = () => {
     </section>
   );
 };
-
-function App() {
-  return (
-    <main className="contacts-app">
-      <HashRouter basename="/">
-        <Switch>
-          <Route exact path="/contacts" component={AllContacts} />
-          <Route exact path="/contacts/:contactId" component={ContactPage} />
-          <Redirect from="/" to="/contacts" />
-        </Switch>
-      </HashRouter>
-    </main>
-  );
-}
-
-export default App;
