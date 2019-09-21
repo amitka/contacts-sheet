@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import * as Icons from "../style/Icons";
 
 const contacts = require("../assets/contacts.json");
+const WHATS_APP_URL = "https://api.whatsapp.com/send?phone=972";
 
 export const ContactsGallery = () => {
   return (
@@ -10,7 +12,7 @@ export const ContactsGallery = () => {
         <div className="header-title">
           <span className="header-title-main">גן נופר</span>
           <span className="header-title-sub">דף קשר</span>
-          <span>2019/20</span>
+          <span className="header-title-year">2019/20</span>
         </div>
         <div className="search-container">
           <input type="text" placeholder="חפש\י..." />
@@ -33,15 +35,28 @@ export const ContactsGallery = () => {
                 </div>
                 <span className="contact-name">{`${contact.first} ${contact.last}`}</span>
               </Link>
-              <a
-                href={`tel:${contact.mobile1}`}
-                className="contact-phone"
-              >{`${contact.mobile1}`}</a>
+              {contact.mobile1 && (
+                <div className="contact-actions">
+                  <a href={`tel:${contact.mobile1}`} className="contact-phone">
+                    {Icons.phone}
+                  </a>
+                  <a
+                    href={`${WHATS_APP_URL + contact.mobile1}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="contact-whats-app"
+                  >
+                    {Icons.whatsApp}
+                  </a>
+                </div>
+              )}
             </div>
           ))}
         </div>
+        <footer>
+          <span>made with love</span>
+        </footer>
       </div>
-      <footer></footer>
     </section>
   );
 };

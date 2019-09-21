@@ -15,7 +15,7 @@ html {
   --color-main-200: #ff8264;
   --color-main-300: #ffaa64;
   --color-main-400: #fff5a5;
-
+  --color-main-500: #dfdfdf;
   /*  */
   font-size: 24px;
   color: var(--color-text-primary);

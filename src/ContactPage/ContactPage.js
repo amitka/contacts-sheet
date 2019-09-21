@@ -38,7 +38,7 @@ export const ContactPage = ({ match, location }) => {
         <div className="details-row">
           <span>{contact.parent2}</span>
           <a
-            href={`tel:${contact.mobile1}`}
+            href={`tel:${contact.mobile2}`}
             className="page-phone"
           >{`${contact.mobile2}`}</a>
         </div>
