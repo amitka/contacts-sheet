@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import * as Icons from "../style/Icons";
 
-const contacts = require("../assets/contacts.json");
+const CONTACTS_DATA = require("../assets/contacts.json");
 const WHATS_APP_URL = "https://api.whatsapp.com/send?phone=972";
 
 export const ContactsGallery = () => {
+  const [query, setQuery] = useState("");
+
   return (
     <section className="all-contacts-page">
       <header>
@@ -15,12 +17,20 @@ export const ContactsGallery = () => {
           <span className="header-title-year">2019/20</span>
         </div>
         <div className="search-container">
-          <input type="text" placeholder="חפש\י..." />
+          <input
+            type="text"
+            placeholder="חפש\י..."
+            onChange={e => setQuery(e.target.value)}
+          />
         </div>
       </header>
       <div className="contacts-container">
         <div className="contacts-scroll">
-          {contacts.map((contact, index) => (
+          {CONTACTS_DATA.filter(contact => {
+            return (
+              contact.first.includes(query) || contact.last.includes(query)
+            );
+          }).map((contact, index) => (
             <div className="contact-item" key={index}>
               <Link to={`/contacts/${index}`} className="link">
                 <div className="contact-pic">
@@ -46,7 +56,7 @@ export const ContactsGallery = () => {
                     rel="noopener noreferrer"
                     className="contact-whats-app"
                   >
-                    {Icons.whatsApp}
+                    {Icons.whats2}
                   </a>
                 </div>
               )}
@@ -54,7 +64,7 @@ export const ContactsGallery = () => {
           ))}
         </div>
         <footer>
-          <span>made with love</span>
+          <span>made with {Icons.heart}</span>
         </footer>
       </div>
     </section>

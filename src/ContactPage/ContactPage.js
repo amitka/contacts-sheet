@@ -30,24 +30,23 @@ export const ContactPage = ({ match, location }) => {
         <span className="page-name">{`${contact.first} ${contact.last}`}</span>
         <div className="details-row">
           <span>{contact.parent1}</span>
-          <a
-            href={`tel:${contact.mobile1}`}
-            className="page-phone"
-          >{`${contact.mobile1}`}</a>
+          <a href={`tel:${contact.mobile1}`} className="page-phone">
+            {contact.mobile1}
+          </a>
         </div>
         <div className="details-row">
           <span>{contact.parent2}</span>
-          <a
-            href={`tel:${contact.mobile2}`}
-            className="page-phone"
-          >{`${contact.mobile2}`}</a>
+          <a href={`tel:${contact.mobile2}`} className="page-phone">
+            {contact.mobile2}
+          </a>
         </div>
+        <br />
         <br />
         <span>{contact.address}</span>
         <a href={`mailto:${contact.mail}`}>{contact.mail}</a>
       </div>
       <div className="back-button-container">
-        <Link to="/">Back</Link>
+        <Link to="/">חזרה לדף הקשר</Link>
       </div>
     </article>
   );
