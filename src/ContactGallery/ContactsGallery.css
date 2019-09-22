@@ -73,10 +73,16 @@ header {
   min-height: calc(100% - 5rem);
 }
 
+.contacts-scroll .no-results {
+  width: 100%;
+  padding-top: 1rem;
+  text-align: center;
+}
+
 .contact-item {
   flex: 1 0 33%;
   width: 33%;
-  height: 10rem;
+  min-height: 10rem;
   margin: 0.25rem;
   text-align: center;
   border-radius: 0.25rem;
