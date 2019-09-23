@@ -11,12 +11,8 @@ export const ContactPage = ({ match, location }) => {
   const [contact, setContact] = useState({});
 
   useEffect(() => {
-    debugger;
-    const data = CONTACTS_DATA.find(
-      item => item.index === match.params.contactId
-    );
-    console.log(data);
-    setContact(CONTACTS_DATA[match.params.contactId]);
+    const data = CONTACTS_DATA.find(contact => contact.uid === contactId);
+    setContact(data);
   }, []);
 
   return (
@@ -24,32 +20,34 @@ export const ContactPage = ({ match, location }) => {
       {contact && (
         <div className="contact-details">
           <div className="page-pic">
-            <img
-              src={
-                contact.pic
-                  ? require(`../assets/pics/${contact.pic}.jpg`)
-                  : require("../assets/pics/default.jpg")
-              }
-              alt="contact-pic"
-            />
+            <div className="pic-wrapper">
+              <img
+                src={
+                  contact.pic
+                    ? require(`../assets/pics/${contact.pic}.jpg`)
+                    : require("../assets/pics/default.jpg")
+                }
+                alt="contact-pic"
+              />
+            </div>
+            <div className="page-name">{`${contact.first} ${contact.last}`}</div>
           </div>
-          <span className="page-name">{`${contact.first} ${contact.last}`}</span>
-          <div className="details-row">
-            <span>{contact.parent1}</span>
-            <a href={`tel:${contact.mobile1}`} className="page-phone">
-              {contact.mobile1}
-            </a>
+          <div className="page-phone">
+            <div className="details-row">
+              <span>{contact.parent1}</span>
+              <a href={`tel:${contact.mobile1}`}>{contact.mobile1}</a>
+            </div>
+            <div className="details-row">
+              <span>{contact.parent2}</span>
+              <a href={`tel:${contact.mobile2}`}>{contact.mobile2}</a>
+            </div>
           </div>
-          <div className="details-row">
-            <span>{contact.parent2}</span>
-            <a href={`tel:${contact.mobile2}`} className="page-phone">
-              {contact.mobile2}
-            </a>
+          <div className="page-address">
+            <span>{contact.address}</span>
           </div>
-          <br />
-          <br />
-          <span>{contact.address}</span>
-          <a href={`mailto:${contact.mail}`}>{contact.mail}</a>
+          <div className="page-mail">
+            <a href={`mailto:${contact.mail}`}>{contact.mail}</a>
+          </div>
         </div>
       )}
       <div className="back-button-container">

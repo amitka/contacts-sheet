@@ -44,6 +44,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .search-container input {
@@ -53,6 +54,16 @@ header {
   border-radius: 6px;
   border-color: transparent;
   direction: rtl;
+}
+
+.contacts-counter {
+  color: var(--color-text-secondary);
+  position: absolute;
+  left: 0;
+  padding-left: 0.5rem;
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .contacts-container {

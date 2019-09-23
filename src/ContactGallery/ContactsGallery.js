@@ -30,13 +30,17 @@ export const ContactsGallery = () => {
             placeholder="חפש\י..."
             onChange={e => setQuery(e.target.value)}
           />
+          <span className="contacts-counter">
+            <span style={{ paddingLeft: ".15rem" }}>{itemsFound.length}</span>
+            <span>ילדים</span>
+          </span>
         </div>
       </header>
       <div className="contacts-container">
         <div className="contacts-scroll">
           {itemsFound.length > 0 ? (
             itemsFound.map((item, index) => (
-              <GalleryItem contact={item} key={index} idx={index} />
+              <GalleryItem contact={item} key={index} />
             ))
           ) : (
             <div className="no-results"> ... לא מצאתי</div>
@@ -50,10 +54,10 @@ export const ContactsGallery = () => {
   );
 };
 
-const GalleryItem = ({ contact, idx }) => {
+const GalleryItem = ({ contact }) => {
   return (
     <div className="contact-item">
-      <Link to={`/contacts/${idx}`} className="link">
+      <Link to={`/contacts/${contact.uid}`} className="link">
         <div className="contact-pic">
           <img
             src={
