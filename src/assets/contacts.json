@@ -1,18 +1,5 @@
 [
   {
-    "first": "מאיה",
-    "last": "דר",
-    "gender": "בת",
-    "parent1": "עדי",
-    "mobile1": "0502302002",
-    "parent2": "שי",
-    "mobile2": "0523458108",
-    "address": "הכפר הירוק",
-    "mail": "adikalmydar@gmail.com",
-    "uid": "1",
-    "pic": "maya-d"
-  },
-  {
     "first": "אלמה",
     "last": "לוי",
     "gender": "בת",
@@ -163,18 +150,6 @@
     "address": "השדות 4",
     "mail": "Mirit.grin@gmail.com",
     "uid": "15"
-  },
-  {
-    "first": "אריאל",
-    "last": "סלע",
-    "gender": "בן",
-    "parent1": "קרן",
-    "mobile1": "0545306077",
-    "parent2": "מירון",
-    "mobile2": "0546495959",
-    "address": "הגנים 9",
-    "mail": "kerenzsela@gmail.com",
-    "uid": "16"
   },
   {
     "first": "בר",
