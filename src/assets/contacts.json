@@ -1,13 +1,26 @@
 [
   {
+    "first": "מאיה",
+    "last": "דר",
+    "gender": "בת",
+    "parent1": "עדי",
+    "mobile1": "0502302002",
+    "parent2": "שי",
+    "mobile2": "0523458108",
+    "address": "הכפר הירוק",
+    "mail": "adikalmydar@gmail.com",
+    "pic": "maya-d",
+    "uid": "1"
+  },
+  {
     "first": "אלמה",
     "last": "לוי",
     "gender": "בת",
     "parent1": "נועה",
     "mobile1": "0542375658",
     "address": "הגנים 7",
-    "uid": "2",
-    "pic": "alma-l"
+    "pic": "alma-l",
+    "uid": "2"
   },
   {
     "first": "אופיר",
@@ -19,8 +32,8 @@
     "mobile2": "0545900474",
     "address": "השדות 4",
     "mail": "Adimi1979@gmail.com",
-    "uid": "3",
-    "pic": "ofir-s"
+    "pic": "ofir-s",
+    "uid": "3"
   },
   {
     "first": "ניקה",
@@ -29,8 +42,8 @@
     "parent1": "לירון",
     "mobile1": "0525251524",
     "address": "השדות 13",
-    "uid": "4",
-    "pic": "nika-z"
+    "pic": "nika-z",
+    "uid": "4"
   },
   {
     "first": "מיה",
@@ -40,8 +53,8 @@
     "mobile1": "0545911744",
     "address": "הפרחים 2",
     "mail": "meiravch@gmail.com",
-    "uid": "5",
-    "pic": "maya-b"
+    "pic": "maya-b",
+    "uid": "5"
   },
   {
     "first": "דניאל",
@@ -51,8 +64,8 @@
     "mobile1": "0542699795",
     "address": "הגנים 5",
     "mail": "tkailler@gmail.com",
-    "uid": "6",
-    "pic": "daniel-yu"
+    "pic": "daniel-yu",
+    "uid": "6"
   },
   {
     "first": "אלון",
@@ -63,8 +76,8 @@
     "parent2": "פאינה",
     "mobile2": "0549773772",
     "address": "הפרחים 13",
-    "uid": "7",
-    "pic": "alon-g"
+    "pic": "alon-g",
+    "uid": "7"
   },
   {
     "first": "ארי",
@@ -75,24 +88,8 @@
     "parent2": "סטיב",
     "address": "השדות 2",
     "mail": "korin.bell@gmail.com",
-    "uid": "8",
-    "pic": "ari-k"
-  },
-  {
-    "first": "מייקל",
-    "last": "טוביא",
-    "gender": "בן",
-    "parent1": "הדיל",
-    "mobile1": "0526389004",
-    "address": "הגנים 18",
-    "uid": "9"
-  },
-  {
-    "first": "נועם",
-    "last": "אמיר",
-    "gender": "בת",
-    "parent1": "רונה",
-    "uid": "10"
+    "pic": "ari-k",
+    "uid": "8"
   },
   {
     "first": "איתי",
@@ -104,6 +101,7 @@
     "mobile2": "0544815133",
     "address": "הגנים 9",
     "mail": "Sharonsh@team.co.il",
+    "pic": "itai-s",
     "uid": "11"
   },
   {
@@ -114,8 +112,8 @@
     "mobile1": "0545651186",
     "address": "הגנים 9",
     "mail": "michalih@hotmail.com",
-    "uid": "12",
-    "pic": "yarden-d"
+    "pic": "yarden-d",
+    "uid": "12"
   },
   {
     "first": "נועם",
@@ -124,6 +122,7 @@
     "parent1": "רוית אמיר",
     "mobile1": "0524483969",
     "address": "הגנים 9",
+    "pic": "noam-d",
     "uid": "13"
   },
   {
@@ -136,8 +135,8 @@
     "mobile2": "0503301414",
     "address": "הגנים 16",
     "mail": "Dananreut@yahoo.com",
-    "uid": "14",
-    "pic": "leni-r"
+    "pic": "leni-r",
+    "uid": "14"
   },
   {
     "first": "עיטם",
@@ -149,7 +148,21 @@
     "mobile2": "0504242428",
     "address": "השדות 4",
     "mail": "Mirit.grin@gmail.com",
+    "pic": "eytam",
     "uid": "15"
+  },
+  {
+    "first": "אריאל",
+    "last": "סלע",
+    "gender": "בן",
+    "parent1": "קרן",
+    "mobile1": "0545306077",
+    "parent2": "מירון",
+    "mobile2": "0546495959",
+    "address": "הגנים 9",
+    "mail": "kerenzsela@gmail.com",
+    "pic": "ariel-s",
+    "uid": "16"
   },
   {
     "first": "בר",
@@ -161,8 +174,8 @@
     "mobile2": "0544878882",
     "address": "הגנים 5",
     "mail": "noya.parasol@gmail.com",
-    "uid": "17",
-    "pic": "bar-k"
+    "pic": "bar-k",
+    "uid": "17"
   },
   {
     "first": "נאור",
@@ -174,8 +187,8 @@
     "mobile2": "0548185009",
     "address": "הגנים 9",
     "mail": "dana.ziman@gmail.com",
-    "uid": "18",
-    "pic": "naor-z"
+    "pic": "naor-z",
+    "uid": "18"
   },
   {
     "first": "אייל",
@@ -192,23 +205,23 @@
     "mobile2": "0522518924",
     "address": "השדות 5",
     "mail": "Pardo.micahl@gmail.com",
-    "uid": "20",
-    "pic": "eytan-m"
+    "pic": "eytan-m",
+    "uid": "20"
   },
   {
     "first": "דור",
     "last": "לוי",
+    "gender": "בן",
+    "parent1": "טל",
+    "mobile1": "0544347246",
+    "address": "השדות 2",
+    "pic": "dor-l",
     "uid": "21"
   },
   {
     "first": "בן",
     "last": "מאירי",
     "uid": "22"
-  },
-  {
-    "first": "גיא",
-    "last": "אדלר",
-    "uid": "23"
   },
   {
     "first": "אריאל",
@@ -227,7 +240,7 @@
     "parent1": "דורותי",
     "mobile1": "0544287011",
     "parent2": "אסף",
-    "mobile2": "543393195",
+    "mobile2": "0543393195",
     "address": "הגנים 5",
     "mail": "Dorothee.mel@gmail.com",
     "uid": "26"
@@ -251,7 +264,7 @@
     "parent1": "דנה",
     "mobile1": "0505222414",
     "address": "הגנים 3",
-    "uid": "28",
-    "pic": "guy-a"
+    "pic": "guy-a",
+    "uid": "28"
   }
 ]
