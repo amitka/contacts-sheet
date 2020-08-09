@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const CONTACTS_DATA = require("../assets/contacts.json");
-
 export const ContactPage = ({ match, location }) => {
-  const {
-    params: { contactId }
-  } = match;
+  // const {
+  //   params: { contactId },
+  // } = match;
 
   const [contact, setContact] = useState({});
 
   useEffect(() => {
-    const data = CONTACTS_DATA.find(contact => contact.uid === contactId);
-    setContact(data);
-  }, []);
+    // const data = CONTACTS_DATA.find((contact) => contact.uid === contactId);
+    // setContact(data);
+    //console.log(location.state);
+    setContact(location.state);
+  }, [location]);
 
   return (
     <article className="contact-page-container">
@@ -21,14 +21,7 @@ export const ContactPage = ({ match, location }) => {
         <div className="contact-details">
           <div className="page-pic">
             <div className="pic-wrapper">
-              <img
-                src={
-                  contact.pic
-                    ? require(`../assets/pics/${contact.pic}.jpg`)
-                    : require("../assets/pics/default.jpg")
-                }
-                alt="contact-pic"
-              />
+              <img src={contact.pic} alt="contact-pic" />
             </div>
             <div className="page-name">{`${contact.first} ${contact.last}`}</div>
           </div>
