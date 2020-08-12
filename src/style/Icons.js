@@ -15,8 +15,20 @@ export const whatsApp = (
 export const phone = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="34"
-    height="34"
+    width="36"
+    height="36"
+    viewBox="0 0 80 80"
+    className="svg-icon"
+  >
+    <path d="M46.143 46.143c-7.917 7.917-17.085 15.485-20.708 11.861-5.189-5.188-8.388-9.707-19.825-.515-11.438 9.196-2.653 15.323 2.373 20.351 5.8 5.799 27.421.305 48.792-21.063C78.143 35.404 83.641 13.783 77.837 7.981 72.81 2.954 66.683-5.828 57.491 5.611c-9.194 11.434-4.677 14.634.513 19.823 3.622 3.624-3.944 12.791-11.861 20.709z" />
+  </svg>
+);
+
+export const phoneSmall = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
     viewBox="0 0 80 80"
     className="svg-icon"
   >

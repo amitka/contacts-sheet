@@ -64,7 +64,10 @@ export const ContactsGallery = () => {
           )}
         </div>
         <footer>
-          <span>made with {Icons.heart}</span>
+          <div>
+            <a href={`tel:0544-666123`}>גן יקינטון{Icons.phoneSmall}</a>
+            <span>made with {Icons.heart}</span>
+          </div>
         </footer>
       </div>
     </section>
