@@ -79,7 +79,10 @@ const GalleryItem = ({ contact }) => {
     <div className="contact-item">
       {/* <Link to={`/contacts/${contact.first + contact.last}`} className="link"> */}
       <Link
-        to={{ pathname: `/contacts/${contact.first} `, state: contact }}
+        to={{
+          pathname: `/contacts/child`,
+          state: contact,
+        }}
         className="link"
       >
         <div className="contact-pic">
