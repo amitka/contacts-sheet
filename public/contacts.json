@@ -17,7 +17,7 @@
     "parent2": "אורי",
     "mobile2": "052-2518924",
     "address": "השדות 5",
-    "pic": "kids/default.jpg"
+    "pic": "kids/eytan.jpg"
   },
   {
     "first": "אלון",
@@ -87,7 +87,7 @@
     "parent2": "רונן",
     "mobile2": "054-6665446",
     "address": "השדות 13",
-    "pic": "kids/default.jpg"
+    "pic": "kids/liri.jpg"
   },
   {
     "first": "בר",
@@ -137,7 +137,7 @@
     "parent2": "שרון",
     "mobile2": "052-2445166",
     "address": "השדות 10",
-    "pic": "kids/default.jpg"
+    "pic": "kids/ariel-g.jpg"
   },
   {
     "first": "שחר",
@@ -167,7 +167,7 @@
     "parent2": "שרון",
     "mobile2": "052-2445166",
     "address": "השדות 10",
-    "pic": "kids/default.jpg"
+    "pic": "kids/lia.jpg"
   },
   {
     "first": "ירדן",
@@ -217,6 +217,36 @@
     "parent2": "תומר",
     "mobile2": "054-5222133",
     "address": "השדות 2",
+    "pic": "kids/default.jpg"
+  },
+  {
+    "first": "אופיר",
+    "last": "שרקון",
+    "parent1": "עדי",
+    "mobile1": "054-5900474",
+    "parent2": "איתי",
+    "mobile2": "054-4715330",
+    "address": "השדות 4",
+    "pic": "kids/ofir.jpg"
+  },
+  {
+    "first": "גיא",
+    "last": "אדלר",
+    "parent1": "דנה",
+    "mobile1": "050-5222414",
+    "parent2": "אסף",
+    "mobile2": "050-9080451",
+    "address": "הגנים 3",
+    "pic": "kids/guy.jpg"
+  },
+  {
+    "first": "מאיה",
+    "last": "גיל",
+    "parent1": "אלינור",
+    "mobile1": "052-3694013",
+    "parent2": "רן",
+    "mobile2": "",
+    "address": "הגנים 3",
     "pic": "kids/default.jpg"
   }
 ]
