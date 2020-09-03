@@ -207,7 +207,7 @@
     "parent2": "עודד",
     "mobile2": "054-8185009",
     "address": "הגנים 9",
-    "pic": "kids/default.jpg"
+    "pic": "kids/naor.jpg"
   },
   {
     "first": "יובל",
@@ -268,5 +268,15 @@
     "mobile2": "054-4846100",
     "address": "השדות 8",
     "pic": "kids/angelina.jpg"
+  },
+  {
+    "first": "אלמה",
+    "last": "לוי",
+    "parent1": "נועה",
+    "mobile1": "054-2375658",
+    "parent2": "איזק",
+    "mobile2": "052-6383437",
+    "address": "הגנים 7",
+    "pic": "kids/alma.jpg"
   }
 ]
