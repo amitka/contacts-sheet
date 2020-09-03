@@ -37,7 +37,7 @@ export const ContactsGallery = () => {
     <section className="all-contacts-page">
       <header>
         <div className="header-title">
-          <span className="header-title-main">גן יקינטון</span>
+          <span className="header-title-main">גן יקינתון</span>
           <span className="header-title-sub">דף קשר</span>
           <span className="header-title-year">2020/21</span>
         </div>
@@ -65,7 +65,7 @@ export const ContactsGallery = () => {
         </div>
         <footer>
           <div>
-            <a href={`tel:0544-666123`}>גן יקינטון{Icons.phoneSmall}</a>
+            <a href={`tel:03-9116466`}>גן יקינתון{Icons.phoneSmall}</a>
             <span>made with {Icons.heart}</span>
           </div>
         </footer>
